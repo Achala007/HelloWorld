@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Ramzan Dieze
+ * @author Achala Piyarathna
  */
 public class viewCustomerList extends javax.swing.JFrame {
 
