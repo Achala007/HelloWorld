@@ -7,7 +7,7 @@ package cstute;
 
 /**
  *
- * @author Ramzan Dieze
+ * @author Achala Piyarathna
  */
 public class User {
     
