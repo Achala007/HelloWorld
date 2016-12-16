@@ -18,25 +18,7 @@ public class viewCustomerList extends javax.swing.JFrame {
 
     /**
      * Creates new form viewCustomerList
-     */
-    static boolean flag;
-    DefaultTableModel model;
-    static List<String> customerDetails;
-    
-    public viewCustomerList() {
-        initComponents();
-        setTitle("eBank");
-        ImageIcon img = new ImageIcon("src/icon.png");
-        this.setLocationRelativeTo(null);
-        
-        model = (DefaultTableModel) jTable3.getModel();
-        jTable3.addMouseListener(new java.awt.event.MouseAdapter() {
-            @Override
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                int index = jTable3.getSelectedRow();
-                dispose();
-                SearchEmpView.start(customerDetails.get(index));
-//                dispose();
+    ;
             }
         });
         insertToTable();
