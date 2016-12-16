@@ -81,7 +81,10 @@ public class viewCustomerList extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        
+        manageEmployee1.setText("Main Menu");
+        manageEmployee1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                manageEmployee1ActionPerformed(evt);
             }
         });
 
