@@ -138,7 +138,7 @@ public class viewEmployeeList extends javax.swing.JFrame {
     private static java.util.List<java.lang.String> retrieveEmployeeList() {
         ebank.RetrieveData_Service service = new ebank.RetrieveData_Service();
         ebank.RetrieveData port = service.getRetrieveDataPort();
-        return port.retrieveEmployeeList();
+        
     }
 
     
