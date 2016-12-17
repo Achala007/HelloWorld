@@ -129,7 +129,16 @@ public class viewEmployeeList extends javax.swing.JFrame {
         });
     }
 
-   
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JButton manageEmployee;
+    // End of variables declaration//GEN-END:variables
+
+    private static java.util.List<java.lang.String> retrieveEmployeeList() {
+        ebank.RetrieveData_Service service = new ebank.RetrieveData_Service();
+        ebank.RetrieveData port = service.getRetrieveDataPort();
+        return port.retrieveEmployeeList();
     }
 
     
