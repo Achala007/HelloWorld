@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Ramzan Dieze
+ * @author Achala Piyarathna
  */
 public class viewEmployeeList extends javax.swing.JFrame {
 
