@@ -112,7 +112,18 @@ public class viewEmployeeList extends javax.swing.JFrame {
 
     private void manageEmployeeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageEmployeeActionPerformed
         // TODO add your handling code here:
-        EmployeeUp
+        EmployeeUp.startEmp();
+        dispose();
+    }//GEN-LAST:event_manageEmployeeActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void viewEmpList() {
+        
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
                 new viewEmployeeList().setVisible(true);
             }
         });
