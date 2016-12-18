@@ -31,7 +31,7 @@ public class viewEmployeeList extends javax.swing.JFrame {
 
     public viewEmployeeList() {
         initComponents();
-        getContentPane().setBackground(Color.GRAY);
+        getContentPane().setBackground(Color.Blue);
         setTitle("eBank");
         ImageIcon img = new ImageIcon("src/icon.png");
         this.setLocationRelativeTo(null);
