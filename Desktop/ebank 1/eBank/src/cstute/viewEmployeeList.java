@@ -86,7 +86,14 @@ public class viewEmployeeList extends javax.swing.JFrame {
 
         manageEmployee.setText("Manage");
         manageEmployee.addActionListener(new java.awt.event.ActionListener() {
-            pup(
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                manageEmployeeActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
             .addComponent(manageEmployee, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
