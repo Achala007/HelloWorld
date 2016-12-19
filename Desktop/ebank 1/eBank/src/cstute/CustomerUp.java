@@ -102,12 +102,7 @@ public class CustomerUp extends javax.swing.JFrame {
 
         jButton1.setText("jButton1");
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        DOBTextField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                DOBTextFieldActionPerformed(evt);
-            }
+        setD
         });
 
         createCustomerButton.setText("Add Customer");
