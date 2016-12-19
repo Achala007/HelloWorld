@@ -20,13 +20,7 @@ public class CustomerUp extends javax.swing.JFrame {
     /**
      * Creates new form CustomerList
      */
-    public CustomerUp() {
-        initComponents();
-//        getContentPane().setBackground(Color.GRAY);
-        setTitle("eBank");
-        ImageIcon img = new ImageIcon("src/icon.png");
-        this.setLocationRelativeTo(null);
-//        updateCustomerButton5.setEnabled(false);
+    eCustomerButton5.setEnabled(false);
     }
 
     /**
