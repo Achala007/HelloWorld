@@ -32,6 +32,7 @@ public class CSATute {
             java.util.logging.Logger.getLogger(Selections.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
 
-       
+        Login.start();
+    }
 
 }
