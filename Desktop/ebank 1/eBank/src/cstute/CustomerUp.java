@@ -131,7 +131,21 @@ public class CustomerUp extends javax.swing.JFrame {
             }
         });
 
-        
+        jLabel4.setText("DOB : ");
+
+        jLabel5.setText("Address : ");
+
+        jLabel7.setText("Email : ");
+
+        jLabel8.setText("account number :");
+
+        jLabel10.setText("sort code : ");
+
+        jLabel11.setText("balance : ");
+
+        jLabel12.setText("card : ");
+
+        jLabel19.setText("account type :");
 
         acntTypeTextField.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Current", "Personal", "Savings" }));
 
