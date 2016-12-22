@@ -149,7 +149,14 @@ public class CustomerUp extends javax.swing.JFrame {
 
         acntTypeTextField.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Current", "Personal", "Savings" }));
 
- 
+        logoutBtn1.setText("Log out");
+        logoutBtn1.setMaximumSize(new java.awt.Dimension(101, 23));
+        logoutBtn1.setMinimumSize(new java.awt.Dimension(101, 23));
+        logoutBtn1.setPreferredSize(new java.awt.Dimension(101, 23));
+        logoutBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                logoutBtn1ActionPerformed(evt);
+            }
         });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
