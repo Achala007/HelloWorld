@@ -285,29 +285,6 @@ public class CustomerUp extends javax.swing.JFrame {
 
         jLabel20.setText("card : ");
 
-        cardTextField1.setEditable(false);
-
-        emailTextField1.setEditable(false);
-
-        jLabel21.setText("Email : ");
-
-        jLabel22.setText("Mobile : ");
-
-        mobileTextField1.setEditable(false);
-
-        balanceTextField1.setEditable(false);
-
-        jLabel23.setText("balance : ");
-
-        sortCodeTextField1.setEditable(false);
-
-        jLabel24.setText("sort code : ");
-
-        addressTextField1.setEditable(false);
-
-        jLabel25.setText("Address : ");
-
-        jLabel26.setText("DOB : ");
 
         DOBTextField1.setEditable(false);
         DOBTextField1.addActionListener(new java.awt.event.ActionListener() {
