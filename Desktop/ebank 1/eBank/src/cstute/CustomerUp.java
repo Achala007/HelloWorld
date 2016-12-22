@@ -320,7 +320,15 @@ public class CustomerUp extends javax.swing.JFrame {
 
         acntNmbTextField1.setEditable(false);
 
-        jLabel28.setText("accner() {
+        jLabel28.setText("account type :");
+
+        nameTextField1.setEditable(false);
+
+        jLabel29.setText("Name : ");
+
+        backBtn2.setText("Back");
+        backBtn2.setPreferredSize(new java.awt.Dimension(97, 23));
+        backBtn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtn2ActionPerformed(evt);
             }
