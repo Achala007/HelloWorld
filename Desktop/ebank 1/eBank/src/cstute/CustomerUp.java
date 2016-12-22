@@ -275,6 +275,11 @@ public class CustomerUp extends javax.swing.JFrame {
             }
         });
 
+        updateCreateFormBtn1.setText("Update");
+        updateCreateFormBtn1.setPreferredSize(new java.awt.Dimension(97, 23));
+        updateCreateFormBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                updateCreateFormBtn1ActionPerformed(evt);
             }
         });
 
