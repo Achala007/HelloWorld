@@ -303,10 +303,7 @@ public class CustomerUp extends javax.swing.JFrame {
 
         jLabel24.setText("sort code : ");
 
-        addressTextField1.setEditable(false);
-
-        jLabel25.setText("Address : ");
-
+        addressTextField1.set
         jLabel26.setText("DOB : ");
 
         DOBTextField1.setEditable(false);
