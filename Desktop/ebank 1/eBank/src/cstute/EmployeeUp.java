@@ -72,9 +72,7 @@ public class EmployeeUp extends javax.swing.JFrame {
 
         createEmpButton.setText("Add Employee");
         createEmpButton.setPreferredSize(new java.awt.Dimension(97, 23));
-        createEmpButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                createEmpButtonActionPerformed(evt);
+        createEmpButton.addAct
             }
         });
 
