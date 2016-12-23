@@ -14,7 +14,8 @@ public class EmployeeUp extends javax.swing.JFrame {
      * Creates new form Registration
      */
     public EmployeeUp() {
-        initComponentstBackground(Color.GRAY);
+        initComponents();
+//        getContentPane().setBackground(Color.GRAY);
         setTitle("eBank");
         ImageIcon img = new ImageIcon("src/icon.png");
         this.setLocationRelativeTo(null);
