@@ -167,9 +167,7 @@ public class EmployeeUp extends javax.swing.JFrame {
 
         jLabel8.setText("Position : ");
 
-        empPositionTextField1.setEditable(false);
-
-        jLabel9.setText("Username : ");
+        empPositionTeername : ");
 
         empUserNameTextField1.setEditable(false);
         empUserNameTextField1.addMouseListener(new java.awt.event.MouseAdapter() {
