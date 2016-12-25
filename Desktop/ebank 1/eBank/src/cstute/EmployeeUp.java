@@ -285,7 +285,7 @@ public class EmployeeUp extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("User Name");
+        
 
         label1.setText("Enter  the username for delete a employee.");
 
