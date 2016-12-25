@@ -9,7 +9,21 @@ import javax.swing.JOptionPane;
  * @author Achala Piyarathna
  */
 public class Login extends javax.swing.JFrame {
-onents() {
+
+    /**
+     * Creates new form Login
+     */
+    public Login() {
+        initComponents();
+        getContentPane().setBackground(Color.GRAY);
+        setTitle("eBank");
+        ImageIcon img = new ImageIcon("src/icon.png");
+        this.setLocationRelativeTo(null);
+    }
+
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
 
         jProgressBar1 = new javax.swing.JProgressBar();
         jLabel1 = new javax.swing.JLabel();
