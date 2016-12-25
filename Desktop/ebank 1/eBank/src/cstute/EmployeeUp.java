@@ -292,7 +292,7 @@ public class EmployeeUp extends javax.swing.JFrame {
         jLabel18.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel18.setText("Delete employee");
 
-        logoutBtn3.setText(
+        logoutBtn3.setText("Log Out");
         logoutBtn3.setPreferredSize(new java.awt.Dimension(97, 23));
         logoutBtn3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
