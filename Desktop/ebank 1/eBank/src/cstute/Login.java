@@ -45,7 +45,14 @@ public class Login extends javax.swing.JFrame {
 
         jLabel2.setText("Username : ");
 
-        jLabel3.setText("Password : 
+        jLabel3.setText("Password : ");
+
+        loginButton.setText("Login");
+        loginButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                loginButtonActionPerformed(evt);
+            }
+        });
 
         clearButton.setText("Clear");
         clearButton.addActionListener(new java.awt.event.ActionListener() {
